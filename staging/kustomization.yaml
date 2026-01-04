@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../base
 replicas:
-- count: 2
+- count: 3
   name: vote
 namespace: staging
 commonAnnotations:
